@@ -8,5 +8,6 @@ def reverse_each_word (sentence1)
 end
 
 def reverse_each_word (sentence2)
-  new_array = []
+  sentence2.split (" ")
+  
   
