@@ -8,8 +8,7 @@ def reverse_each_word (sentence1)
 end
 
 def reverse_each_word (sentence2)
-  sentence2.split (" ")
-  new_array = []
+  new_array = sentence2.split (" ")
   new_array.collect do |sentence2|
     sentence2.reverse
   end
